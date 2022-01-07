@@ -8,7 +8,7 @@ Grupo en Telegram https://t.me/Pen7esting
 
 Es un simple script que ejecuta hydra para ejecutarlo de forma mas sencilla.
 
-![Hydra1](https://user-images.githubusercontent.com/67207446/148481418-a3d97e6b-625d-49fc-b7f9-900098bcc7b7.png)
+![hydra](https://user-images.githubusercontent.com/67207446/148614482-b71e781f-2a72-45ef-a229-82d2afb2b4da.png)
 
 ## Uso
 
