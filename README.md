@@ -12,13 +12,13 @@ Es un simple script que ejecuta hydra para ejecutarlo de forma mas sencilla.
 
 ## Uso
 
-git clone https://github.com/Anonimo501/hashcat_modified.git
+git clone https://github.com/Anonimo501/hydra_brute-force.git
 
-cd hashcat_modified/
+cd hydra_brute-force/
 
-chmod +x hashcat_modified.sh
+chmod +x hydra_brute-force.sh
 
-./hashcat_modified.sh
+./hydra_brute-force.sh
 
 
 # Referencias
